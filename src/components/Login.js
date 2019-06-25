@@ -17,10 +17,10 @@ class Form extends React.Component {
 
   handleSubmit(event){
     event.preventDefault();
-    const API_URL="https://powerful-plateau-66121.herokuapp.com/";
+    const API_URL="https://powerful-plateau-66121.herokuapp.com/login";
     const data = new FormData(event.target);
     const email = data.get('email');
-    const password = data.get('password')
+    const password = data.get('password');
     const form = "login";
 
     const user = {

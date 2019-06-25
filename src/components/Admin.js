@@ -16,14 +16,14 @@ class Admin extends React.Component {
   }
 
   componentDidMount() {
-    const API_URL="https://glacial-sierra-61756.herokuapp.com/admin";
+    const API_URL="https://powerful-plateau-66121.herokuapp.com/admin";
     const jwt = getJwt();
     const bearer = 'Bearer ' + jwt;
 
 
     if(!jwt){
       this.props.history.push('/login');
-    }
+  }
 
     fetch(API_URL, {
           method: 'POST',
@@ -68,7 +68,7 @@ class Admin extends React.Component {
                   <h4> {user.email} </h4>
                 </div>
                 <div className="col-md-2 mx-3 text-right">
-                  <h4> {user.password.slice(0, 20)}...  </h4>
+                  <h4> {user.password} </h4>
                 </div>
               </div>
               )
@@ -87,7 +87,7 @@ class Admin extends React.Component {
                   <h4> {user.email} </h4>
                 </div>
                 <div className="col-md-2 mx-3 text-right">
-                  <h4> {user.password.slice(0, 20)}...  </h4>
+                  <h4> {user.password}...  </h4>
                 </div>
               </div>
               )
