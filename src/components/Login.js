@@ -17,7 +17,7 @@ class Form extends React.Component {
 
   handleSubmit(event){
     event.preventDefault();
-    const API_URL="https://glacial-sierra-61756.herokuapp.com/login";
+    const API_URL="https://powerful-plateau-66121.herokuapp.com/";
     const data = new FormData(event.target);
     const email = data.get('email');
     const password = data.get('password')

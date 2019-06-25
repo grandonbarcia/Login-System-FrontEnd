@@ -19,7 +19,7 @@ class SignUp extends React.Component {
   handleSubmit(event) {
     console.log("click");
     event.preventDefault();
-    const API_URL="https://glacial-sierra-61756.herokuapp.com/";
+    const API_URL= "https://powerful-plateau-66121.herokuapp.com/" ; //"https://glacial-sierra-61756.herokuapp.com/"
     const data = new FormData(event.target);
     const name = data.get('name');
     const email = data.get('email');

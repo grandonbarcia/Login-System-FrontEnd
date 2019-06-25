@@ -5,7 +5,7 @@ const LoggedOut = () => {
   return(
     <ul className="navbar-nav">
       <li className="nav-item active">
-        <NavLink to="/Login"><div className="nav-link">Login</div></NavLink>
+            <NavLink to="/Login"><div className="nav-link">Login</div></NavLink>
       </li>
       <li className="nav-item">
         <NavLink to="/SignUp"><div className="nav-link" >SignUp</div></NavLink>
