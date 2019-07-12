@@ -23,9 +23,11 @@ Path: `http://localhost:8080/login`
 #### Sign up Page
 
 Path: `http://localhost:8080/signup`
+
 ![](/public/img/signup.PNG)
 
 #### Admin Page (When Logged In)
 
 Path: `http://localhost:8080/Admin`
+
 ![](/public/img/admin.PNG)
