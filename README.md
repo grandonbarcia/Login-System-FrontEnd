@@ -14,15 +14,14 @@ npm start
 
 The paths found below are accessible to the user in the window after starting the app.
 
-#### Index Page
-
-Path: `http://localhost:8080/`
-
 #### Login Page
 
-Path: `http://localhost:3000/user/session/create`
+Path: `http://localhost:8080/login`
 
+#### Sign up Page
 
-#### Menu List
+Path: `http://localhost:8080/signup`
 
-Path: `http://localhost:3000/menu/list`
+#### Admin Page (When Logged In)
+
+Path: `http://localhost:8080/Admin`
