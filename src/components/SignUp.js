@@ -47,9 +47,6 @@ class SignUp extends React.Component {
     }).then(response => response.json())
       .then(result => {
         console.log(result);
-
-
-
         if(result.isValidated){
           console.log("this works");
           this.setState({
